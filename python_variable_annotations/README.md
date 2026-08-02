@@ -11,7 +11,7 @@ Project on type annotations in Python 3.
 
 ## Requirements
 
-- All files are interpreted/compiled on Ubuntu 18.04 LTS using `python3` (version 3.7).
+- All files are interpreted/compiled on Ubuntu 20.04 LTS using `python3` (version 3.9).
 - All files end with a new line.
 - The first line of all files is exactly `#!/usr/bin/env python3`.
 - Code uses the `pycodestyle` style (version 2.5.x).
