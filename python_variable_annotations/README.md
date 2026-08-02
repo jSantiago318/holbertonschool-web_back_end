@@ -27,3 +27,4 @@ Project on type annotations in Python 3.
 | `1-concat.py` | Type-annotated function `concat` that takes two strings and returns them concatenated. |
 | `2-floor.py` | Type-annotated function `floor` that takes a float and returns its floor as an int. |
 | `3-to_str.py` | Type-annotated function `to_str` that takes a float and returns its string representation. |
+| `4-define_variables.py` | Type-annotated module level variables `a`, `pi`, `i_understand_annotations` and `school`. |
