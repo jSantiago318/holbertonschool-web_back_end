@@ -26,3 +26,4 @@ Project on type annotations in Python 3.
 | `0-add.py` | Type-annotated function `add` that takes two floats and returns their sum as a float. |
 | `1-concat.py` | Type-annotated function `concat` that takes two strings and returns them concatenated. |
 | `2-floor.py` | Type-annotated function `floor` that takes a float and returns its floor as an int. |
+| `3-to_str.py` | Type-annotated function `to_str` that takes a float and returns its string representation. |
