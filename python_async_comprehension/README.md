@@ -24,3 +24,4 @@ Project on asynchronous generators and comprehensions in Python.
 | ---- | ----------- |
 | `0-async_generator.py` | Coroutine `async_generator` that loops 10 times, waits 1 second asynchronously and yields a random number between 0 and 10. |
 | `1-async_comprehension.py` | Coroutine `async_comprehension` that collects 10 random numbers with an async comprehension over `async_generator`. |
+| `2-measure_runtime.py` | Coroutine `measure_runtime` that runs `async_comprehension` four times in parallel with `asyncio.gather` and returns the total runtime. |
