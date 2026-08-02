@@ -27,3 +27,4 @@ Project on asynchronous programming with `async`/`await` and `asyncio`.
 | `0-basic_async_syntax.py` | Coroutine `wait_random` that waits a random delay between 0 and `max_delay` (default 10) seconds and returns it. |
 | `1-concurrent_coroutines.py` | Coroutine `wait_n` that spawns `wait_random` n times and returns the delays in ascending order without calling `sort()`. |
 | `2-measure_runtime.py` | Function `measure_time` that measures the total execution time of `wait_n(n, max_delay)` and returns `total_time / n`. |
+| `3-tasks.py` | Function `task_wait_random` that returns an `asyncio.Task` wrapping `wait_random(max_delay)`. |
