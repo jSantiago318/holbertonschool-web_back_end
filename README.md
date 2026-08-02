@@ -1,7 +1,8 @@
-# holbertonschool-web_front_end
+# holbertonschool-web_back_end
 
-Web Front End projects for Holberton School.
+Web Back End projects for Holberton School.
 
 ## Directories
 
-- `html_advanced`: Advanced HTML project
+- `python_variable_annotations`: Type annotations in Python 3
+- `python_async_comprehension`: Async generators and async comprehensions
