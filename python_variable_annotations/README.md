@@ -28,3 +28,8 @@ Project on type annotations in Python 3.
 | `2-floor.py` | Type-annotated function `floor` that takes a float and returns its floor as an int. |
 | `3-to_str.py` | Type-annotated function `to_str` that takes a float and returns its string representation. |
 | `4-define_variables.py` | Type-annotated module level variables `a`, `pi`, `i_understand_annotations` and `school`. |
+| `5-sum_list.py` | Type-annotated function `sum_list` that returns the sum of a list of floats. |
+| `6-sum_mixed_list.py` | Type-annotated function `sum_mixed_list` that returns the sum of a list of integers and floats. |
+| `7-to_kv.py` | Type-annotated function `to_kv` that returns a tuple of a string and the square of a number. |
+| `8-make_multiplier.py` | Type-annotated function `make_multiplier` that returns a function multiplying a float by `multiplier`. |
+| `9-element_length.py` | Duck-typed function `element_length` pairing each element of an iterable with its length. |
