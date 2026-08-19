@@ -25,3 +25,4 @@ metadata and deletion-resilient pagination.
 | ---- | ----------- |
 | `0-simple_helper_function.py` | Function `index_range` that returns a tuple of the start and end indexes corresponding to the range of indexes to return for the given 1-indexed `page` and `page_size`. |
 | `1-simple_pagination.py` | `Server` class with a `get_page` method that asserts its arguments are positive integers and returns the matching page of `Popular_Baby_Names.csv`, or an empty list when out of range. |
+| `2-hypermedia_pagination.py` | `Server` class with a `get_hyper` method that reuses `get_page` and wraps the page in hypermedia metadata: `page_size`, `page`, `data`, `next_page`, `prev_page` and `total_pages`. |
