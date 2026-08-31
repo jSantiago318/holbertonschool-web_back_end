@@ -43,3 +43,4 @@ the `mongo` shell and from Python with PyMongo.
 | `5-count` | Script that displays the number of documents in the collection `school`. |
 | `6-update` | Script that adds the attribute `address: "972 Mission street"` to every document of `school` whose `name` is `"Holberton school"`. |
 | `7-delete` | Script that deletes every document of the collection `school` whose `name` is `"Holberton school"`. |
+| `8-all.py` | Function `list_all` that returns the list of all the documents of a PyMongo collection, or an empty list when the collection is empty. |
