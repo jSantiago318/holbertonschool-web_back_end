@@ -39,3 +39,4 @@ the `mongo` shell and from Python with PyMongo.
 | `1-use_or_create_database` | Script that creates or switches to the database `my_db`. |
 | `2-insert` | Script that inserts a document with `name: "Holberton school"` in the collection `school` of the database passed to `mongo`. |
 | `3-all` | Script that lists all the documents of the collection `school`. |
+| `4-match` | Script that lists the documents of the collection `school` whose `name` is `"Holberton school"`. |
