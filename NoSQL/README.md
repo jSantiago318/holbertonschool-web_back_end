@@ -36,3 +36,4 @@ the `mongo` shell and from Python with PyMongo.
 | File | Description |
 | ---- | ----------- |
 | `0-list_databases` | Script that lists all the databases of the MongoDB instance. |
+| `1-use_or_create_database` | Script that creates or switches to the database `my_db`. |
