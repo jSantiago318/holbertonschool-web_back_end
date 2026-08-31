@@ -41,3 +41,4 @@ the `mongo` shell and from Python with PyMongo.
 | `3-all` | Script that lists all the documents of the collection `school`. |
 | `4-match` | Script that lists the documents of the collection `school` whose `name` is `"Holberton school"`. |
 | `5-count` | Script that displays the number of documents in the collection `school`. |
+| `6-update` | Script that adds the attribute `address: "972 Mission street"` to every document of `school` whose `name` is `"Holberton school"`. |
