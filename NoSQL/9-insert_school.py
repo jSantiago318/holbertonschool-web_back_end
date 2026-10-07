@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
-"""Module inserting a document in a MongoDB collection."""
+"""Insert a document in a collection"""
 
 
 def insert_school(mongo_collection, **kwargs):
-    """Insert kwargs as a new document of mongo_collection.
+    """Inserts a new document in a collection
 
-    Return the _id of the inserted document.
+    Args:
+        mongo_collection: pymongo collection object
+        **kwargs: document fields
+
+    Returns:
+        The new document's _id
     """
-    return mongo_collection.insert_one(kwargs).inserted_id
+    result = mongo_collection.insert_one(kwargs)
+    return result.inserted_id
